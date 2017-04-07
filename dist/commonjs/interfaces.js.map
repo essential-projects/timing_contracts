@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sources":["interfaces.ts"],"names":[],"mappings":";AAiCA,IAAY,SAIX;AAJD,WAAY,SAAS;IACnB,yCAAQ,CAAA;IACR,iDAAY,CAAA;IACZ,yCAAQ,CAAA;AACV,CAAC,EAJW,SAAS,GAAT,iBAAS,KAAT,iBAAS,QAIpB","file":"interfaces.js","sourceRoot":"../../src"}
+=======
+{"version":3,"sources":["interfaces.ts"],"names":[],"mappings":";;AA8BA,IAAY,SAIX;AAJD,WAAY,SAAS;IACnB,yCAAQ,CAAA;IACR,iDAAY,CAAA;IACZ,yCAAQ,CAAA;AACV,CAAC,EAJW,SAAS,GAAT,iBAAS,KAAT,iBAAS,QAIpB","file":"interfaces.js","sourceRoot":"../../src"}
+>>>>>>> 8d7f64d434d2dccd9c005036a4f78df85b790ef8
