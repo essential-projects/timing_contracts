@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 var TimerType;
 (function (TimerType) {
     TimerType[TimerType["once"] = 0] = "once";
