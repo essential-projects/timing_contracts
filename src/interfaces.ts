@@ -1,5 +1,5 @@
-import {IEntity} from '@process-engine-js/core_contracts';
-import {ExecutionContext} from '@process-engine-js/core_contracts';
+import {IEntity} from '@essential-projects/core_contracts';
+import {ExecutionContext} from '@essential-projects/core_contracts';
 
 import * as moment from 'moment';
 import * as schedule from 'node-schedule';
