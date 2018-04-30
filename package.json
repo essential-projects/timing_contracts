@@ -14,7 +14,7 @@
     "Simon Reymann <simon.reymann@quantusflow.com>"
   ],
   "dependencies": {
-    "@essential-projects/core_contracts": "^1.0.0",
+    "@essential-projects/core_contracts": "^2.0.0",
     "debug": "^2.6.1",
     "node-schedule": "^1.2.1"
   },
