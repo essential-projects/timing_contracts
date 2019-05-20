@@ -1,6 +1,5 @@
-import {TimerRule} from './timer_rule';
-
 import * as moment from 'moment';
+import {TimerRule} from './timer_rule';
 
 /**
  * Handles the creation, execution and destruction of timers.
