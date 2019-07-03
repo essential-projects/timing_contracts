@@ -1,5 +1,4 @@
 import * as moment from 'moment';
-import {TimerRule} from './timer_rule';
 
 /**
  * Handles the creation, execution and destruction of timers.
@@ -19,15 +18,15 @@ export interface ITimerService {
   once(date: moment.Moment, eventName: string): string;
 
   /**
-   * Creates a new timer that will run periodically, based on the given rule
-   * and raise the given event each time it has elapsed.
+   * Creates a new timer from the given crontab
+   * and raise the given event each time the cronjob has elapsed.
    *
    * @param rule      The rule by which the timer is to run.
    * @param eventName The name of the event to raise when the timer has
    *                  elapsed.
    * @returns         The ID of the created timer.
    */
-  periodic(rule: TimerRule, eventName: string): string;
+  periodic(crontab: string, eventName: string): string;
 
   /**
    * Cancels the timer with the given id.
