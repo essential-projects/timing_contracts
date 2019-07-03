@@ -6,8 +6,8 @@ import * as moment from 'moment';
 export interface ITimerService {
 
   /**
-   * Creates a new timer that will run once and raise the given event when
-   * expired.
+   * Creates a new timer that will run only once and raise the given event
+   * upon expiration.
    *
    * @param   date      Either a duration or a date. This determines when the
    *                    timer is to expire.
@@ -15,18 +15,18 @@ export interface ITimerService {
    *                    expired.
    * @returns           The ID of the created timer.
    */
-  once(date: moment.Moment, eventName: string): string;
+  oneShot(date: moment.Moment, eventName: string): string;
 
   /**
-   * Creates a new timer from the given crontab
+   * Creates a new timer from the given cron expression
    * and raise the given event each time the cronjob has elapsed.
    *
-   * @param rule      The rule by which the timer is to run.
+   * @param crontab   The rule by which the timer is to run.
    * @param eventName The name of the event to raise when the timer has
    *                  elapsed.
    * @returns         The ID of the created timer.
    */
-  periodic(crontab: string, eventName: string): string;
+  cronjob(crontab: string, eventName: string): string;
 
   /**
    * Cancels the timer with the given id.
